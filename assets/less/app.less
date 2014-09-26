@@ -1,0 +1,130 @@
+/*!
+ * Roots 6.5.2
+ */
+
+@import "bootstrap/bootstrap.less";
+@import "variables.less";
+
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body { }
+
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.banner { }
+
+header {
+    &.navbar {
+        border: none;
+    }
+
+    border: 0px solid transparent;
+    .navbar-static-top {
+        border-width: 0px;
+    }
+
+    .navbar-header {
+        .navbar-toggle {
+            background: @green;
+        }
+        .navbar-brand {
+            text-transform: uppercase;
+        }
+    }
+
+    nav.navbar-collapse {
+        box-shadow: 0 0 0 rgba(255, 255, 255, 0.1) inset;
+    }
+
+    .frss-header {
+        background: @green;
+        img {
+        }
+    }
+}
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+/* Gallery Shortcode */
+.gallery-row { padding: 15px 0; }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info {
+    background: @green;
+    color: #fff;
+
+    p {
+        text-align: center;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (min-width: @screen-sm-min) { }
+
+@media (min-width: @screen-md-min) { }
+
+@media (min-width: @screen-lg-min) { }
